@@ -1,4 +1,5 @@
 export const defaultTheme = {
+<<<<<<< HEAD
   white: "#FFF",
 
   "gray-100": "#E1E1E6",
@@ -18,4 +19,9 @@ export const defaultTheme = {
   "red-700": "#7A1921",
 
   "yellow-500": "#FBA94C",
+=======
+  white: "#fff",
+  primary: "purple",
+  secondary: "orange",
+>>>>>>> 3e98469ab2a57eb847f848e7bdf61007fa8cd8f8
 };
