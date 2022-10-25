@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
 * {
@@ -8,8 +8,8 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-    background: ${(props) => props.theme["gray-900"]};
-    color: ${(props) => props.theme["white"]};
+    background: ${(props) => props.theme['gray-900']};
+    color: ${(props) => props.theme.white};
 }
 
 body, input, textarea, button {
@@ -18,4 +18,4 @@ body, input, textarea, button {
     font-size: 1rem;
 }
 
-`;
+`
