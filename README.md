@@ -20,3 +20,6 @@ npm create vite@latest
 ```
 npm install styled-components
 ```
+
+#### Utilização de themes
+Através do 'ThemeProvider' do styled-components.
