@@ -1,8 +1,10 @@
+import { HistoryContainer } from "./styles";
+
 /* eslint-disable prettier/prettier */
 export function History() {
   return (
-    <div>
+    <HistoryContainer>
       <h1>History</h1>
-    </div>
-  )
+    </HistoryContainer>
+  );
 }
