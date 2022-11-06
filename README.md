@@ -23,7 +23,7 @@ npm install styled-components
 ```
 
 a biblioteca styled-components tem suporte completo para o uso de temas, através
-da propriedade <ThemeProviders>
+da propriedade `<ThemeProviders>`
 
 ```
 import { ThemeProvider } from 'styled-components'
