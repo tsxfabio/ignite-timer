@@ -3,7 +3,13 @@
 Nome: Projeto 02.  
 Descrição: Aplicação de timer com opção de consultar histórico.
 
-## Temas Abordados:
+## Biblioetcas e Frameworks utilizados:
+
+- [Vite](https://vitejs.dev/)
+- [Styled Components](https://styled-components.com/)
+- [React Router e React Router Dom](https://v5.reactrouter.com/)
+
+## Pontos importantes de cada solução:
 
 ### Criação do Projeto ReactJS Utilizando Vite
 
