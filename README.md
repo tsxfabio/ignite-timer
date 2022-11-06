@@ -9,8 +9,6 @@ Descrição: Aplicação de timer com opção de consultar histórico.
 - [Styled Components](https://styled-components.com/)
 - [React Router e React Router Dom](https://v5.reactrouter.com/)
 
-## Pontos importantes de cada solução:
-
 ### Criação do Projeto ReactJS Utilizando Vite
 
 [Guia](https://vitejs.dev/guide/)
