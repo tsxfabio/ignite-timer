@@ -8,6 +8,9 @@ Descrição: Aplicação de timer com opção de consultar histórico.
 - [Vite](https://vitejs.dev/)
 - [Styled Components](https://styled-components.com/)
 - [React Router e React Router Dom](https://v5.reactrouter.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [React Hook Form Resolvers](https://react-hook-form.com/api/useform/#resolver)
+- [Zod](https://zod.dev/)
 
 ### Criação do Projeto ReactJS Utilizando Vite
 
