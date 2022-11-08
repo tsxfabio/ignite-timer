@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { Play } from "phosphor-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from "zod";
-
 import {
   CountdownButton,
   CountdownContainer,
@@ -29,7 +29,16 @@ const newCycleValidationSchema = zod.object({
 // Alternativa para a criação da interface. Através do Schema o zod consegue identificar os tipos de cada campo
 type NewCycleFormData = zod.infer<typeof newCycleValidationSchema>;
 
+interface Cycle {
+  id: string;
+  task: string;
+  minutesAmount: number;
+}
+
 export function Home() {
+  const [cycles, setCycles] = useState<Cycle[]>([]);
+  const [activeCycleId, setActiveCycleId] = useState<string | null>(null);
+
   const { register, handleSubmit, watch, formState, reset } =
     useForm<NewCycleFormData>({
       resolver: zodResolver(newCycleValidationSchema),
@@ -46,12 +55,21 @@ export function Home() {
   const isSubmitDisabled = !task;
 
   function handleCreateNewCycle(data: NewCycleFormData) {
-    console.log(data);
+    const id = String(new Date().getTime());
+
+    const newCycle: Cycle = {
+      id,
+      task: data.task,
+      minutesAmount: data.minutesAmount,
+    };
+    setCycles((state) => [...state, newCycle]);
+    setActiveCycleId(id);
+
     reset();
   }
 
-  // Retorna os erros de validação
-  console.log(formState.errors);
+  const activeCycle = cycles.find((cycle) => cycle.id === activeCycleId);
+  console.log(activeCycle);
 
   return (
     <HomeContainer>
