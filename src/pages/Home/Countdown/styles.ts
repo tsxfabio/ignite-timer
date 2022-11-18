@@ -7,15 +7,13 @@ export const CountdownContainer = styled.div`
   color: ${(props) => props.theme["gray-100"]};
   display: flex;
   gap: 1rem;
-
   span {
     background: ${(props) => props.theme["gray-700"]};
     padding: 2rem 1rem;
     border-radius: 8px;
   }
 `;
-
-export const Separettor = styled.div`
+export const Separator = styled.div`
   padding: 2rem 0;
   color: ${(props) => props.theme["green-500"]};
   width: 4rem;
