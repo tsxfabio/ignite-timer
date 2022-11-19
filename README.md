@@ -12,6 +12,7 @@ Descrição: Aplicação de timer com opção de consultar histórico.
 - [React Hook Form Resolvers](https://react-hook-form.com/api/useform/#resolver)
 - [Zod](https://zod.dev/)
 - [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [Contexts]()
 
 ### Criação do Projeto ReactJS Utilizando Vite
 
@@ -59,3 +60,5 @@ export function App() {
 #### useEffect:
 
 #### useContext:
+
+#### useReducer:
