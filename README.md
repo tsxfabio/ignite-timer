@@ -3,7 +3,7 @@
 Nome: Projeto 02.  
 Descrição: Aplicação de timer com opção de consultar histórico.
 
-## Biblioetcas e Ferramentas e Métodos utilizados:
+## Biblioetcas, Ferramentas e Métodos utilizados:
 
 - [Vite](https://vitejs.dev/)
 - [Styled Components](https://styled-components.com/)
@@ -12,7 +12,10 @@ Descrição: Aplicação de timer com opção de consultar histórico.
 - [React Hook Form Resolvers](https://react-hook-form.com/api/useform/#resolver)
 - [Zod](https://zod.dev/)
 - [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
-- [Contexts]()
+- [useState](https://reactjs.org/docs/hooks-state.html)
+- [useEffect](https://reactjs.org/docs/hooks-effect.html)
+- [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
 ### Criação do Projeto ReactJS Utilizando Vite
 
