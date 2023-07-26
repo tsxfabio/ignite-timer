@@ -25,7 +25,7 @@ export function History() {
           <tbody>
             {cycles.map((cycle) => {
               return (
-                <tr>
+                <tr key={cycle.id}>
                   <td>{cycle.task}</td>
                   <td>{cycle.minutesAmount} minutos</td>
                   <td>
@@ -36,13 +36,13 @@ export function History() {
                   </td>
                   <td>
                     {cycle.finishedDate && (
-                      <Status statusColor='green'>Concluído</Status>
+                      <Status statusColor='green' key={cycle.id}>Concluído</Status>
                     )}
                     {cycle.interruptedDate && (
-                      <Status statusColor='red'>Interrompido</Status>
+                      <Status statusColor='red' key={cycle.id}>Interrompido</Status>
                     )}
                     {!cycle.finishedDate && !cycle.interruptedDate && (
-                      <Status statusColor='yellow'>Em andamento</Status>
+                      <Status statusColor='yellow' key={cycle.id}>Em andamento</Status>
                     )}
                   </td>
                 </tr>

@@ -41,3 +41,13 @@ Componentes:
  - [x] A aba do navegador deverá apresentar o timer em tempo real, mesmo quando o usuário estiver navegando em outra aba ou com o navegador minimizado.
 
 ### Evidências:
+
+![evidência 01](./public/evidencias/evidencia01.png)
+
+![evidência 02](./public/evidencias/evidencia02.png)
+
+![evidência 03](./public/evidencias/evidencia03.png)
+
+![evidência 04](./public/evidencias/evidencia04.png)
+
+![evidência 05](./public/evidencias/evidencia05.png)
